@@ -1,5 +1,4 @@
-/* 
-Common Shared style */
+/*Common Shared style */
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -17,17 +16,14 @@ body {
     font-weight: 700;
     padding: 15px 35px;
     color: white;
-
-    
 }
-
-
 
 /* nav realated style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 
@@ -37,16 +33,34 @@ nav {
     font-weight: 800;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
     margin-right: 50px;
+    
 }
 
 nav a {
     list-style: none;
-    color: Dark 02
+    color: Dark 02;
+}
+/* Header related colour */
+.header {
+    background-color: rgb(255, 248, 243);
+    
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+
+}
+
+.banner .profile-picture {
+    width: 400px;
+    
 }
