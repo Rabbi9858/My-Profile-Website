@@ -17,6 +17,17 @@ body {
     padding: 15px 35px;
     color: white;
 }
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-description{
+    color:#757575;
+    font-size: 18px;
+    text-align: center;
+}
 
 /* nav realated style */
 nav {
@@ -33,7 +44,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -41,26 +52,57 @@ nav > ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
 nav a {
     list-style: none;
     color: Dark 02;
 }
+
 /* Header related colour */
 .header {
     background-color: rgb(255, 248, 243);
-    
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
 
+}
+.banner-content{
+    max-width: 500px;
 }
 
 .banner .profile-picture {
     width: 400px;
-    
+
+}
+
+.banner-greatings {
+    font-size: 45px;
+    color: #474747;
+    margin:0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top:130px ;
 }
